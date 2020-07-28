@@ -102,10 +102,20 @@ The below graph (Fig. 4) shows our results in graphical form for easy comparison
 
 ![4](https://user-images.githubusercontent.com/50589688/88675652-c4ce0100-d108-11ea-87af-f20b961dcadd.jpg)
 
-
 Fig.4
 
-# VI.Conclusion
+# VI.How to Use
+
+1. Compile "fileserver.c" on the server machine and execute it.
+2. Enter number of clients to be connected.
+3. Compile "fileclient.c" on the different client machines and execute it.
+4. Enter input filename and start execution.
+
+"matmul.c" can be used to time multiplication time on a single machine.
+
+"data.c" can be used to generate random matrices of different sizes.
+
+# VII.Conclusion
 
 In this paper we implemented and analyzed the parallel matrix multiplication on distributed systems. Our mechanism will make it easier to automatic migrate the computation load to client. Future work will apply this implementation on any practical application like weather prediction, databases systems, data compression and others with increasing the numbers of clients.
 
